@@ -1,0 +1,33 @@
+@font-face{font-family:dr; src: url('/app/assets/fonts/DroidKufi.woff');}
+html.rtl{
+    direction: rtl;
+}
+html.rtl .pull-left{
+    float:right;
+}
+html.rtl .pull-right{
+    float:left;
+}
+html.rtl .form-check-label {
+    padding-right: 1.25rem;
+}
+html.rtl .form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0;
+}
+html.rtl ul{
+    -webkit-padding-start: 0px;
+}
+html.rtl .nav-tabs .nav-item {
+    float: right;    
+}
+
+
+html.rtl .col-xs-1, html.rtl .col-xs-2, html.rtl .col-xs-3, html.rtl .col-xs-4, html.rtl .col-xs-5, html.rtl .col-xs-6, html.rtl .col-xs-7, html.rtl .col-xs-8, html.rtl .col-xs-9, html.rtl .col-xs-10, html.rtl .col-xs-11, html.rtl .col-xs-12, html.rtl .col-sm-1, html.rtl .col-sm-2, html.rtl .col-sm-3, html.rtl .col-sm-4, html.rtl .col-sm-5, html.rtl .col-sm-6, html.rtl .col-sm-7, html.rtl .col-sm-8, html.rtl .col-sm-9, html.rtl .col-sm-10, html.rtl .col-sm-11, html.rtl .col-sm-12, html.rtl .col-md-1, html.rtl .col-md-2, html.rtl .col-md-3, html.rtl .col-md-4, html.rtl .col-md-5, html.rtl .col-md-6, html.rtl .col-md-7, html.rtl .col-md-8, html.rtl .col-md-9, html.rtl .col-md-10, html.rtl .col-md-11, html.rtl .col-md-12, html.rtl .col-lg-1, html.rtl .col-lg-2, html.rtl .col-lg-3, html.rtl .col-lg-4, html.rtl .col-lg-5, html.rtl .col-lg-6, html.rtl .col-lg-7, html.rtl .col-lg-8, html.rtl .col-lg-9, html.rtl .col-lg-10, html.rtl .col-lg-11, html.rtl .col-lg-12, html.rtl .col-xl-1, html.rtl .col-xl-2, html.rtl .col-xl-3, html.rtl .col-xl-4, html.rtl .col-xl-5, html.rtl .col-xl-6, html.rtl .col-xl-7, html.rtl .col-xl-8, html.rtl .col-xl-9, html.rtl .col-xl-10, html.rtl .col-xl-11, html.rtl .col-xl-12 {
+   float: right;     
+}
+
+html.rtl .quiz-container{
+    padding-right: 280px;
+    padding-left: 0;
+}

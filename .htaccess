@@ -1,0 +1,20 @@
+#GeoIPEnable On
+#SetEnvIf GEOIP_COUNTRY_CODE CN DenyCountry
+#Allow from all
+#Deny from env=DenyCountry
+
+RewriteEngine On
+RewriteBase /
+ 
+RewriteCond %{HTTP_HOST} !^www.facequizz.com
+RewriteRule ^(.*)$ http://www.facequizz.com/$1 [R=301,L]
+
+RewriteRule ^sitemap.xml$ home/sitemap/ [QSA,L]
+
+  
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
